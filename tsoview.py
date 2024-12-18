@@ -120,7 +120,7 @@ for acronym in neighbors:
         tso_name = row.iloc[0]["Company"]
         neighboring_info.append(f"{acronym} - {country_name} ({tso_name})")
 
-# Display neighboring countries with details
+# Display neighboring countries with details.
 if neighboring_info:
     for info in neighboring_info:
         st.write(f"- {info}")
